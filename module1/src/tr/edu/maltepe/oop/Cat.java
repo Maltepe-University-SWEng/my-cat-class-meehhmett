@@ -8,24 +8,34 @@ public class Cat {
 
     int age;
     int legCount;
+    String name;
 
     //Constructor
     public Cat(int age,int legCount ){
         this.age = age;
         this.legCount = legCount;
     }
-    //Setter and Getterss
+    //Setter and Getters
+    public String getName(){
+        return this.name;
+    }
     public int getAge(){
         return this.age;
     }
     public int getLegCount(){
         return this.legCount;
     }
+    public void setName(String name){
+        this.name = name;
+    }
     public void setAge(int age){
         this.age = age;
     }
     public void setLegCount(int legCount){
         this.legCount = legCount;
+    }
+    public void printCatName(){
+        System.out.print(this.name);
     }
 
     public void Meow(){

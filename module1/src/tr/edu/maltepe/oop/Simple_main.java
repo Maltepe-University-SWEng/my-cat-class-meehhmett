@@ -15,7 +15,11 @@ public  class Simple_main {
      int cat1Age = cat1.getAge();
      int cat2Age = cat2.getAge();
 
-     //Setters
+     cat1.setName("cat1111");
+     String getnamecat1 = cat1.getName();
+     System.out.print(getnamecat1);
+     cat1.printCatName();
+     //Setterss
      cat1.setAge(5);
 
     }
