@@ -14,7 +14,7 @@ public class Cat {
         this.age = age;
         this.legCount = legCount;
     }
-    //Setter and Getters
+    //Setter and Getterss
     public int getAge(){
         return this.age;
     }

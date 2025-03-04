@@ -15,7 +15,7 @@ public  class Simple_main {
      int cat1Age = cat1.getAge();
      int cat2Age = cat2.getAge();
 
-     //Setter
+     //Setters
      cat1.setAge(5);
 
     }
